@@ -1,0 +1,9 @@
+{
+    "type": "Burglary",
+    "description": "Someone committed a crime",
+    "location": "Gotham",
+    "suspect_name": "Joker",
+    "date_time": "2012-04-23T18:25:43Z",
+    "latitude": 49.80404,
+    "longitude": 9.96233
+}
