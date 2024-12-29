@@ -12,7 +12,7 @@ PORT = 8000
 run:
 	./.venv/bin/robyn crimes/app.py \
 	    --fast \
-		--processes 2 \
+		--processes 8 \
 		--workers 2 \
 		--disable-openapi
 
