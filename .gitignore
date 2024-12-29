@@ -1,2 +1,3 @@
 .ropeproject
 .ruff_cache
+*.db

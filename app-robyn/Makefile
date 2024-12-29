@@ -13,7 +13,7 @@ run:
 	./.venv/bin/robyn crimes/app.py \
 	    --fast \
 		--processes 8 \
-		--workers 2 \
+		--workers 1 \
 		--disable-openapi
 
 dev:

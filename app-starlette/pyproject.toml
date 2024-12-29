@@ -85,3 +85,8 @@ log_date_format = "%H:%M:%S"
 targets = ["src"]
 exclude_dirs = ["tests", ".venv"]
 skips = ["B101", "B301", "B601"]
+
+[dependency-groups]
+dev = [
+    "granian>=1.7.3",
+]

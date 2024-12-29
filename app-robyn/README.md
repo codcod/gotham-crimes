@@ -25,14 +25,14 @@ which on Mac M1 it gives you result such as:
     Running 5s test @ http://127.0.0.1:8000/api/crimes?skip=0&take=10
       12 threads and 500 connections
       Thread Stats   Avg      Stdev     Max   +/- Stdev
-        Latency    28.41ms   20.89ms 144.95ms   68.79%
-        Req/Sec     1.56k   310.14     2.30k    68.33%
+        Latency    29.80ms   26.89ms 197.11ms   75.56%
+        Req/Sec     1.62k   548.18     2.93k    68.17%
       Latency Distribution
-         50%   24.73ms
-         75%   37.51ms
-         90%   60.22ms
-         99%   89.14ms
-      93234 requests in 5.01s, 179.52MB read
-      Socket errors: connect 0, read 504, write 9, timeout 0
-    Requests/sec:  18597.97
-    Transfer/sec:     35.81MB
+         50%   22.55ms
+         75%   42.12ms
+         90%   68.69ms
+         99%  115.95ms
+      96880 requests in 5.02s, 185.80MB read
+      Socket errors: connect 0, read 595, write 0, timeout 0
+    Requests/sec:  19317.14
+    Transfer/sec:     37.05MB
